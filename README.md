@@ -84,8 +84,6 @@ pip install pandas openpyxl
 ✈️ Telegram: [@annac1119](https://t.me/annac1119)
 🐙 GitHub: [annac85](https://github.com/annac85)
 
-[☕ Автору на кофе](https://cherkasovaanna.ru)
-
 ---
 
 ## 📄 Лицензия
