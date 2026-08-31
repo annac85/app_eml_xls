@@ -41,7 +41,7 @@ python main.py
  
 ## Автор
  
-**Анна Черкасова** · Системный аналитик · [cherkasovaanna.ru](https://cherkasovaanna.ru)
+**Анна Черкасова** [cherkasovaanna.ru](https://cherkasovaanna.ru)
 📧 anna@cherkasovaanna.ru · ✈️ [@annac1119](https://t.me/annac1119) · 🐙 [annac85](https://github.com/annac85)
  
 ## Лицензия
