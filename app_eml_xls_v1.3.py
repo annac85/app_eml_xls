@@ -85,12 +85,9 @@ def process_directory(directory):
                 collected_data.append(email_data)
     return collected_data
 
-# Функции для открытия ссылок
+# Функция для открытия ссылки
 def open_website(event):
     webbrowser.open("https://web-domsolnca.ru")
-
-def open_donation(event):
-    webbrowser.open("https://yoomoney.ru/to/41001596412502")
 
 # Функции для выбора папок и сохранения файла
 def select_input_folder():
@@ -169,14 +166,10 @@ save_button = Button(frame, text="Сохранить данные в Excel", com
                      font=('Roboto', 14), bg='#3498db', fg='white', activebackground='#ADD8E6', borderwidth=0)
 save_button.pack(pady=20, fill='x')
 
-# Автор и ссылки
+# Автор
 author_label = ttk.Label(frame, text="Автор: Анна Черкасова", foreground="blue", cursor="hand2")
 author_label.pack(pady=5)
 author_label.bind("<Button-1>", open_website)
-
-donation_label = ttk.Label(frame, text="Автору на кофе", foreground="blue", cursor="hand2")
-donation_label.pack(pady=5)
-donation_label.bind("<Button-1>", open_donation)
 
 # Запуск основного цикла
 root.mainloop()
